@@ -3,7 +3,7 @@ import './App.css'
 import Navbar from "./components/Navbar.jsx"
 import Main from './components/Main.jsx'
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import Footer from './components/Footer.jsx'
+import Footer from "./components/Footer.jsx";
 
 
 
@@ -20,7 +20,7 @@ function App() {
           </main>
 
           <footer>
-            
+            <Footer />
           </footer>
         </div>
     
