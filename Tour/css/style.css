@@ -165,6 +165,52 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   z-index: 9;
   width: 100%; }
 
+/* CSS hover effect START */
+
+.site-navigation ul {
+  position: relative;
+}
+
+.site-navigation ul span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 65px;
+  height: 100%;
+  background: linear-gradient(45deg, #e0f7fa, #2196f3);
+  border-radius: 8px;
+  transition: left 0.5s;
+  z-index: 0;
+}
+
+.nav-item:nth-child(1):hover ~ span {
+  left: 0;
+}
+
+.nav-item:nth-child(2):hover ~ span {
+  left: 80px;
+}
+
+.nav-item:nth-child(3):hover ~ span {
+  left: 160px;
+}
+
+.nav-item:nth-child(4):hover ~ span {
+  left: 240px;
+}
+
+.nav-item:nth-child(5):hover ~ span {
+  left: 320px;
+  width: 90px;
+}
+
+.site-navigation .nav-item a {
+  position: relative;
+  z-index: 1;
+}
+
+/* CSS hover effect START */
+
 .site-nav {
   padding-top: 20px;
   padding-bottom: 20px; }
