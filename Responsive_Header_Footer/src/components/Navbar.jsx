@@ -60,6 +60,7 @@ function Navbar() {
             type="text"
             placeholder="Search.."
           />
+          <span></span>
         </ul>
       </nav>
     </div>
