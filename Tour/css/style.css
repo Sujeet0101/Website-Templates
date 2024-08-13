@@ -160,7 +160,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     color: #ffffff; }
 
 .site-nav {
-  position: absolute;
+  border: 5px solid #6998AB;
+  background: #6998AB;
+  position: sticky;
   top: 0;
   z-index: 9;
   width: 100%; }
@@ -209,7 +211,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   z-index: 1;
 }
 
-/* CSS hover effect START */
+/* CSS hover effect END */
 
 .site-nav {
   padding-top: 20px;
