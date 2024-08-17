@@ -1,7 +1,7 @@
 body {
   font-family: "Inter", sans-serif;
   line-height: 1.5;
-  background: #ffffff;
+  background: rgb(240, 237, 237);
   overflow-x: hidden;
   font-size: 14px; }
   body:before {
@@ -1432,3 +1432,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       content: "\f095"; }
     .site-footer ul.quick-info li.address:before {
       content: "\e8b4"; }
+
+
+

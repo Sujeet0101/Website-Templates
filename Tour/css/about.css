@@ -31,11 +31,11 @@
   text-align: left !important ;
 }
 
-.our-story img,
-.our-long-term-goals img {
+.our-story img {
   width: 100%;
   max-width: 400px;
   margin: 0 auto;
+  background: gray;
 }
 
 .image-container {

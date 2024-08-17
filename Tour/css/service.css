@@ -1,0 +1,36 @@
+
+/**
+* Box minimal border
+*/
+.box-minimal-border {
+    padding: 20px 15px;
+    border-radius: 8px;
+    border: 1px solid #dfe1ea;
+    transition: 450ms ease-in-out;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+.box-minimal-border .box-minimal-icon {
+    font-size: 30px;
+    color: #0d5c7e;
+  }
+  
+  .box-minimal-border .box-minimal-icon svg {
+    fill: #ffa900;
+  }
+  
+  .box-minimal-border .box-minimal-title {
+    font-weight: 400;
+  }
+
+  .box-minimal-border * + hr {
+    margin-top: 20px;
+  }
+  
+  .box-minimal-border:hover {
+    background: #f7f7f7;
+    border-color: #f7f7f7;
+    box-shadow: 0 10px 32px rgba(129, 132, 146, 0.14);
+  }  
